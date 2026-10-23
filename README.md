@@ -1,7 +1,7 @@
-GRUPO 1: 
+# GRUPO 1: 
 
-Camilo Alexander Forero Macilla
-Isaac Alarcón
-David Marca
-Jhonatan Reyes
-Nycol Vanesa Vera Montaño
+## Camilo Alexander Forero Macilla
+## Isaac Alarcón
+## David Marca
+## Jhonatan Reyes
+## Nycol Vanesa Vera Montaño
