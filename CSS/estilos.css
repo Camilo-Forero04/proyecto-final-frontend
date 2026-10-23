@@ -1,0 +1,22 @@
+:root{
+    --soft-linen: #E8E2D5; 
+    --shadow-gray: #22252A;
+    --tomato: #FF6B4A; 
+    --glaucous: #7284A8;
+    --charcoal-blue: #474954;
+    --font-title: "Space Grotesk", sans-serif;
+    --font-text: "Inter", sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--font-title);
+}
+p{
+    font-family: var(--font-text);
+}
