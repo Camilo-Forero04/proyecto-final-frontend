@@ -233,3 +233,21 @@ p {
 .texto-tomato {
   color: var(--tomato);
 }
+
+.fa-brands, 
+.fa-github{
+  width: 40px;
+  height: 40px;
+  color: var(--soft-linen);
+}
+
+.tarjeta a {
+  color: var(--soft-linen);
+  transition: all 0.3s ease; /*transition-property all (lo que se va a animar) transtition-duration (lo que se va  a demorar) transition-timing-function (El ritmo con que velocidad)*/
+}
+
+.tarjeta a:hover {
+  color: var(--tomato); 
+  transform: scale(1.15); /*transform permite modificar la forma o posicion visual de un elemento (escalarlo, rotarlo, moverlo o inclinarlo) sin desacomodar lo demas en este caso con scale lo hace mas grande o le hace zoom*/
+}
+
