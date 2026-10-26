@@ -92,7 +92,7 @@
               </div>
             </header>
  
-            <form action="https://formspree.io/f/xqpppynl" method="POST">
+            <form id="formulario" action="https://formspree.io/f/xqpppynl" method="POST" novalidate> <!--El navegador intenta hacer sus propias validaciones, con novalidate, solo toma las nuestras-->
               <input type="hidden" name="_subject" value="Nuevo mensaje desde Blank Space" />
  
               <fieldset class="bloque-form">
@@ -101,17 +101,20 @@
                 <div class="row g-3">
                   <div class="col-md-6">
                     <label class="etiqueta-form" for="nombre">Nombre</label>
-                    <input class="campo" type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+                    <input class="campo form-control" type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+                    <div class="invalid-feedback">Ingresa tu nombre y apellido (solo letras).</div>
                   </div>
  
                   <div class="col-md-6">
                     <label class="etiqueta-form" for="telefono">Teléfono</label>
-                    <input class="campo" type="tel" id="telefono" name="telefono" placeholder="300 123 4567" />
+                    <input class="campo form-control" type="tel" id="telefono" name="telefono" placeholder="300 123 4567" />
+                    <div class="invalid-feedback">Ingresa un número válido (solo números).</div>
                   </div>
  
                   <div class="col-12">
                     <label class="etiqueta-form" for="email">Correo electrónico</label>
-                    <input class="campo" type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required />
+                    <input class="campo form-control" type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required />
+                    <div class="invalid-feedback">Ingresa un correo válido (ej: nombre@correo.com).</div>
                   </div>
                 </div>
               </fieldset>
@@ -119,7 +122,8 @@
               <fieldset class="bloque-form">
                 <legend class="titulo-bloque"><i class="bi bi-pencil-square"></i> Tu mensaje</legend>
  
-                <textarea class="campo" id="mensaje" name="mensaje" placeholder="Cuéntanos en qué podemos ayudarte" required></textarea>
+                <textarea class="campo form-control" id="mensaje" name="mensaje" placeholder="Cuéntanos en qué podemos ayudarte" required></textarea>
+                <div class="invalid-feedback">El mensaje debe ser más largo</div>
               </fieldset>
  
               <button class="boton-enviar" type="submit">
@@ -133,6 +137,6 @@
       </section>
     </main>
 
-    
+    <script src="/JS/script.js"></script>
 </body>
 </html>
