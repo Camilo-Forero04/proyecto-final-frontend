@@ -251,3 +251,12 @@ p {
   transform: scale(1.15); /*transform permite modificar la forma o posicion visual de un elemento (escalarlo, rotarlo, moverlo o inclinarlo) sin desacomodar lo demas en este caso con scale lo hace mas grande o le hace zoom*/
 }
 
+#mensaje {
+  width: 100%;
+  min-height: 150px;
+  padding: 12px 15px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  resize: vertical;
+}
+
