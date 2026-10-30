@@ -335,3 +335,104 @@ p {
 #equipo{
   color: var(--tomato)
 }
+
+/*----Footer-----*/
+
+.footer {
+    background-color: var(--shadow-gray);
+    color: var(--soft-linen);
+    margin-top: 40px;
+    font-family: var(--font-text);
+}
+.footer .logo {
+    background-color: var(--soft-linen);
+    color: var(--shadow-gray);
+}
+
+.footer .marca {
+    color: var(--soft-linen);
+    font-family: var(--font-title);
+    letter-spacing: 2px;
+}
+
+.footer p {
+    color: var(--soft-linen);
+}
+/* Boton hacer pedido */
+.btn-pedido {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 25px;
+    background-color: var(--soft-linen);
+    color: var(--shadow-gray);
+    border: 1px solid var(--soft-linen);
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: var(--font-text);
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.btn-pedido:hover{
+  background-color: var(--tomato);
+  border-color: var(--tomato);
+  color: var(--shadow-gray);
+  transform: translateY(-4px)
+
+}
+
+/* Menu de navegación*/
+.footer-menu {
+    border-top: 1px solid rgba(232, 226, 213, 0.2);
+    border-bottom: 1px solid rgba(232, 226, 213, 0.2);
+    padding: 20px 0;
+}
+
+.footer-link {
+    color: var(--soft-linen);
+    text-decoration: none;
+    font-family: var(--font-text);
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: var(--tomato)
+}
+
+/*íconos de redes sociales*/
+.social-link {
+    color: var(--soft-linen);
+    font-size: 1.5rem;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.social-link:hover { 
+  transform: translateY(-4px);
+}
+
+#facebook:hover{
+  color: var(--tomato)
+}
+#instagram:hover{
+  color: var(--tomato)
+}
+
+#tiktok:hover{
+  color: var(--tomato)
+}
+.back-top {
+    color: var(--soft-linen);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.back-top:hover{
+  color: var(--tomato)
+}
