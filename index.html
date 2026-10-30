@@ -23,32 +23,49 @@
 </head>
 
 <body>
-  <!-- NAVBAR -->
-<nav class="navbar navbar-expand-md navbar-bs py-3">
-  <div class="container">
-    <a class="navbar-brand d-flex align-items-center" href="index.html">
-      <span class="logo">BS</span>
-      <span class="marca">BLANK SPACE</span>
-    </a>
+  <!-------------------------- NAVBAR ----->
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-      data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
-      <i class="bi bi-list text-white fs-3"></i>
-    </button>
+  <nav class="navbar navbar-expand-md navbar-bs py-3">
+    <div class="container d-flex justify-content-between align-items-center">
 
-    <div class="collapse navbar-collapse" id="menu">
-      <ul class="navbar-nav mx-auto">
-        <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
-        <li class="nav-item"><a class="nav-link" href="HTML/sobre-nosotros.html">Sobre nosotros</a></li>
-        <li class="nav-item"><a class="nav-link" href="HTML/contacto.html">Contacto</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Catálogo</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">¿Cómo funciona?</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Taller 3D</a></li>
-      </ul>
-      <a href="#" class="carrito"><i class="bi bi-cart3"></i><span class="badge">0</span></a>
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <span class="logo">BS</span>
+        <span class="marca">BLANK SPACE</span>
+      </a>
+
+      <div class="d-flex align-items-center ms-auto gap-3 d-md-none">
+        <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+          aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+          <i class="bi bi-list text-white fs-3"></i>
+        </button>
+
+        <a href="#" class="carrito text-decoration-none d-flex align-items-center">
+          <i class="bi bi-cart3 fs-4"></i><span class="badge">0</span>
+        </a>
+      </div>
+
+      <button class="navbar-toggler border-0 p-0 d-none" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+        aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+        <i class="bi bi-list text-white fs-3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="HTML/sobre-nosotros.html">Sobre nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="HTML/contacto.html">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Catálogo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">¿Cómo funciona?</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Taller 3D</a></li>
+        </ul>
+
+        <a href="#" class="carrito text-decoration-none d-none d-md-flex align-items-center">
+          <i class="bi bi-cart3 fs-4"></i><span class="badge">0</span>
+        </a>
+      </div>
+
     </div>
-  </div>
-</nav>
+  </nav>
 
 
   <main class="container py-5">
